@@ -47,7 +47,7 @@ for filename in os.listdir(source_folder):
         # Crop image to 1:1 aspect ratio
         cropped_image = crop_image_to_square(image)
 
-        # Add watermark with 50% opacity
+        # Add watermark with  opacity
         watermarked_image = add_watermark(cropped_image, "bimql.69", opacity=0.1)
 
         # Save the edited image in the "edited_img" folder
