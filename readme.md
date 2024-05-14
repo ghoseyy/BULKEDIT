@@ -10,7 +10,7 @@ Batch Image Editor is a Python script that allows you to process multiple images
 
 ## Requirements
 
-- Python 3.x
+- Python 3
 - Pillow (Python Imaging Library)
 - OpenCV
 - NumPy
@@ -21,7 +21,7 @@ Batch Image Editor is a Python script that allows you to process multiple images
 
 2. Install the required dependencies by running the following command:
 
-pip install pillow opencv-python numpy
+`pip3 install pillow opencv-python numpy`
 
 3. Place the images you want to process in the `input_images` folder.
 
@@ -31,7 +31,7 @@ pip install pillow opencv-python numpy
 
 2. Run the script by executing the following command:
 
-python main.py
+`python main.py`
 
 3. The processed images with the watermark and square crop will be saved in the `edited_img` folder.
 
